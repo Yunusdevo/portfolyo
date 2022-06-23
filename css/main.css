@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+html{
+    font-family: "open sans", sans-serif;
+}
+#navbar{
+color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 0.75rem;
+height: 75px;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.5rem;
+}
+a:hover{
+background-color:aqua ;
+ border-radius: 7px;
+}
+/* home section */
+#home{
+    
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 2rem;
+   border-bottom: 2px solid grey;
+  
+}
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+/* training */
+#training{
+    color: #fff;
+    padding: 1rem;
+}
+#training .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#training .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+#training .items .item:hover{
+    color: red;
+    opacity: 0.6;
+}
+/* lessons */
+#lessons{
+    color: #333;
+}
+.lessons{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.lessons .lesson{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.lessons .lesson .lessonimage{
+    margin-right: 0.5rem;    
+}
+.lessons .lesson .lessonimage .photosize{
+    width: 150px;
+      
+}
+.lessons .lesson .lessonimage .photosize1{
+    width: 115px;
+    height: 160px;
+    margin: 15px;
+      
+}
+
+.lessons .lesson .lessoninfo .title{
+   letter-spacing: 1.2px;
+   font-weight: 700;
+   margin-bottom: 0.25rem;
+}
+.lessons .lesson .lessoninfo .description{
+    letter-spacing: 1px;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+.lessons .lesson .lessoninfo .instructor{
+    letter-spacing: 1px;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+.lessons .lesson .lessoninfo .rating{
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+
+
+
+
+ 
+
+ 
+
+
+ 
+
