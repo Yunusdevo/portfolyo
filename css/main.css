@@ -27,7 +27,7 @@ height: 75px;
     padding: 0.5rem;
 }
 a:hover{
-background-color:aqua ;
+background-color:grey ;
  border-radius: 7px;
 }
 /* home section */
@@ -122,8 +122,32 @@ background-color:aqua ;
     opacity: 0.6;
 }
 
-
-
+/* iletişim */
+#iletişim{
+    color: #fff;
+    padding: 1rem;
+}
+#iletişim .iletişim-formu{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+#iletişim .iletişim-formu ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+#iletişim .iletişim-formu ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+}
+#iletişim .iletişim-formu ul li a:hover{
+    opacity: 0.5;
+}
 
  
 

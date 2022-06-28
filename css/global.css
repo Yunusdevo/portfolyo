@@ -50,3 +50,17 @@ background-color: cornflowerblue;
     max-width: 1100px;
     margin: 0 auto;
 }
+/* forms grub */
+.form-grubu{
+    padding: 0.25rem 0;
+}
+.formcontrol{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 0.75rem;
+    resize: none;
+    border-radius: 10px;
+}
+.form-grubu label{
+    display: block;
+}
